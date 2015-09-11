@@ -1,7 +1,4 @@
-webpack: 7 troubles and one solution
-====================================
-
-Example for the article at Habrahabr.
+Test react app | http://habrahabr.ru/post/248799/ | http://habrahabr.ru/post/245991/
 
 Installation
 ------------
