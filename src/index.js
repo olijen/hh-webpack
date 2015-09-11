@@ -1,14 +1,14 @@
-var $ = require('jquery');
-var React = require('react');
-var Toolbar = require('./toolbar');
-require('./index.css');
-require('./header');
+//
+var React   = require('react');
+//require('bootstrap');
+require("bootstrap-webpack");
+var $ = JQuery = require('jquery');
+var Catalog = require('./components/Catalog');
+
+
+require('./styles/index.css'); 
+
 React.render(
-    React.createElement(Toolbar),
+    React.createElement(Catalog),
     document.getElementById('toolbar')
 );
-if (NODE_ENV === 'production') {
-    $('body').append('There is Production mode.');
-} else {
-    $('body').append('There is Development mode.');
-}

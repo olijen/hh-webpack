@@ -1,3 +1,6 @@
 body {
     background: #eee;
 }
+#toolbar {
+	margin: 60px;
+}

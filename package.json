@@ -1,9 +1,9 @@
 {
-  "name": "hh-webpack",
+  "name": "webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple webpack + react",
   "main": "build.js",
-  "author": "Denis Izmaylov (https://github.com/DenisIzmaylov)",
+  "author": "Oleg Grigoryev (https://github.com/olijen)",
   "license": "GPL",
   "devDependencies": {
     "bower-webpack-plugin": "^0.1.4",
@@ -19,5 +19,9 @@
     "url-loader": "^0.5.5",
     "webpack": "^1.4.13",
     "webpack-dev-server": "^1.6.6"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "bootstrap-webpack": "0.0.3"
   }
 }
